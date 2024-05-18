@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-18T08:39:16.483Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1f84rcb4Zad7z7Mfwid8" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-18T08:43:48.382Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="rlwqZCLkjcp72J700X6i" version="24.3.1" type="github" pages="2">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="977" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -281,6 +281,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Is22Y0aQ2RryUDfUHPx4-72" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Is22Y0aQ2RryUDfUHPx4-57" target="Is22Y0aQ2RryUDfUHPx4-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Is22Y0aQ2RryUDfUHPx4-57" value="是否运营商问题？" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="705.5" y="110" width="130" height="100" as="geometry" />
         </mxCell>
@@ -289,6 +294,54 @@
         </mxCell>
         <mxCell id="Is22Y0aQ2RryUDfUHPx4-70" value="结束：正常返回&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;并给出提示建议&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Is22Y0aQ2RryUDfUHPx4-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Is22Y0aQ2RryUDfUHPx4-73" target="Is22Y0aQ2RryUDfUHPx4-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Is22Y0aQ2RryUDfUHPx4-76" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Is22Y0aQ2RryUDfUHPx4-75">
+          <mxGeometry x="-0.2353" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Is22Y0aQ2RryUDfUHPx4-73" value="问题是否精确" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705.5" y="260" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Is22Y0aQ2RryUDfUHPx4-74" value="返回提示，请用户提供下一步信息&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;并给出提示建议&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="500.5" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8mExTC4c_pZyeHwlSbrF" name="问题状态机">
+    <mxGraphModel dx="1026" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pXs62xzTcJTr7fTppoES-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234" y="180" as="sourcePoint" />
+            <mxPoint x="294" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXs62xzTcJTr7fTppoES-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="180" as="sourcePoint" />
+            <mxPoint x="490" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXs62xzTcJTr7fTppoES-6" value="识别不到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pXs62xzTcJTr7fTppoES-5">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pXs62xzTcJTr7fTppoES-7" value="提问结束" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pXs62xzTcJTr7fTppoES-8" value="意图识别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pXs62xzTcJTr7fTppoES-9" value="问题发起" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
