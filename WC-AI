@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T07:29:05.565Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="fM4JDex2qE3PtTx9Gft8" version="24.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-12T07:30:46.915Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="kK41o8-krbetA-nq9F6l" version="24.5.3" type="github" pages="3">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="v1.0">
     <mxGraphModel dx="1578" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -336,7 +336,7 @@
         <mxCell id="OrBol4U0jwDfFikkJZJ5-5" value="&lt;div&gt;一级意图识别&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="371" y="170" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OrBol4U0jwDfFikkJZJ5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OrBol4U0jwDfFikkJZJ5-9">
+        <mxCell id="OrBol4U0jwDfFikkJZJ5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OrBol4U0jwDfFikkJZJ5-9" target="OrBol4U0jwDfFikkJZJ5-25">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="855.1050000000002" y="210" as="targetPoint" />
           </mxGeometry>
@@ -358,7 +358,7 @@
           <mxGeometry x="150" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OrBol4U0jwDfFikkJZJ5-11" value="结束：正常返回&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;并给出提示建议&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="210" width="120" height="80" as="geometry" />
+          <mxGeometry x="1181" y="170" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OrBol4U0jwDfFikkJZJ5-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OrBol4U0jwDfFikkJZJ5-14" target="OrBol4U0jwDfFikkJZJ5-15">
           <mxGeometry relative="1" as="geometry" />
@@ -378,7 +378,16 @@
           <mxGeometry x="315.5" y="10" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="OrBol4U0jwDfFikkJZJ5-25" value="安全识别" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OrBol4U0jwDfFikkJZJ5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.905;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OrBol4U0jwDfFikkJZJ5-26" target="OrBol4U0jwDfFikkJZJ5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OrBol4U0jwDfFikkJZJ5-26" value="大模型处理" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="170" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OrBol4U0jwDfFikkJZJ5-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OrBol4U0jwDfFikkJZJ5-25" target="OrBol4U0jwDfFikkJZJ5-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
