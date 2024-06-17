@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T13:35:24.392Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xNHaUgJIadoqHzPiPoyj" version="24.5.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-17T13:40:02.388Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YBJqMLrRjsem42PmOJYm" version="24.5.4" type="github" pages="4">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="v1.0">
     <mxGraphModel dx="1578" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -430,6 +430,16 @@
         <mxCell id="JNKTeFQghbfaNoLdz1qY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="9Q0bYtlAiIVewFwnlTCu-1" source="9Q0bYtlAiIVewFwnlTCu-29" target="JNKTeFQghbfaNoLdz1qY-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="JNKTeFQghbfaNoLdz1qY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9Q0bYtlAiIVewFwnlTCu-1" source="JNKTeFQghbfaNoLdz1qY-17" target="JNKTeFQghbfaNoLdz1qY-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNKTeFQghbfaNoLdz1qY-27" value="简单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNKTeFQghbfaNoLdz1qY-24">
+          <mxGeometry x="-0.0443" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JNKTeFQghbfaNoLdz1qY-17" value="简单/详细" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="9Q0bYtlAiIVewFwnlTCu-1">
           <mxGeometry x="1250" y="580" width="130" height="100" as="geometry" />
         </mxCell>
@@ -446,6 +456,22 @@
         </mxCell>
         <mxCell id="JNKTeFQghbfaNoLdz1qY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="9Q0bYtlAiIVewFwnlTCu-1" source="JNKTeFQghbfaNoLdz1qY-20" target="9Q0bYtlAiIVewFwnlTCu-35">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNKTeFQghbfaNoLdz1qY-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="9Q0bYtlAiIVewFwnlTCu-1" source="JNKTeFQghbfaNoLdz1qY-17" target="9Q0bYtlAiIVewFwnlTCu-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1315" y="730" />
+              <mxPoint x="1101" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNKTeFQghbfaNoLdz1qY-23" value="详细" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNKTeFQghbfaNoLdz1qY-22">
+          <mxGeometry x="-0.2562" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JNKTeFQghbfaNoLdz1qY-25" value="能力调用" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="9Q0bYtlAiIVewFwnlTCu-1">
+          <mxGeometry x="1490" y="650" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
