@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T10:10:43.869Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1XHUYnNXJxf8JIiJcL-I" version="24.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-17T01:20:00.286Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="mIzTTA9dPcqyAyuRK1pa" version="24.5.3" type="github" pages="3">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="v1.0">
     <mxGraphModel dx="1578" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
         <mxCell id="OrBol4U0jwDfFikkJZJ5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.905;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OrBol4U0jwDfFikkJZJ5-26" target="OrBol4U0jwDfFikkJZJ5-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OrBol4U0jwDfFikkJZJ5-26" value="大模型处理" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="OrBol4U0jwDfFikkJZJ5-26" value="大模型处理" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1180" y="170" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OrBol4U0jwDfFikkJZJ5-30" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;安全拦截&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;目标：识别用户非意图部分是否安全&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;方法：Bert&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;描述：拦截用户非法提问，比如非法，敏感，骂人等敏感词&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#b85450;dashed=1;fillColor=#f8cecc;opacity=50;spacingLeft=0;spacingRight=16;spacingBottom=0;spacing=0;" vertex="1" parent="1">
@@ -223,7 +223,7 @@
             <mxPoint x="1150" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OrBol4U0jwDfFikkJZJ5-60" value="大模型处理" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="OrBol4U0jwDfFikkJZJ5-60" value="大模型处理" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1080" y="570" width="140" height="80" as="geometry" />
         </mxCell>
       </root>
