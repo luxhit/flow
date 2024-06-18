@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T08:48:27.232Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="AB8K0LFvGjiTqgoI5KJ8" version="24.5.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-18T08:48:39.486Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="F9JBOjYSO3onQWHViygz" version="24.5.5" type="github" pages="5">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="v1.0">
     <mxGraphModel dx="1578" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -513,7 +513,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-31" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;二级意图识别&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;目标：主要识别出意图能力&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;方法：DocChain（Bert）&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;描述：识别用户提问是否是能力，如果是能力则优先调用执行，否则是知识库查询&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#d79b00;dashed=1;fillColor=#ffe6cc;opacity=50;spacingLeft=0;spacingRight=16;spacingBottom=0;spacing=0;" parent="DDZ-goIGRol3SpvbNQV1-15" vertex="1">
-          <mxGeometry x="74.5" y="430" width="220" height="130" as="geometry" />
+          <mxGeometry x="60" y="420" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-29" value="二级意图识别" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="DDZ-goIGRol3SpvbNQV1-15" vertex="1">
           <mxGeometry x="74.5" y="330" width="140" height="80" as="geometry" />
