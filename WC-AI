@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T07:23:06.709Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vZLf_cWQNqQUTkr2HG3t" version="24.5.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-18T07:25:21.049Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3DsJT8xt5txgUJKiE3d4" version="24.5.5" type="github" pages="5">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="v1.0">
     <mxGraphModel dx="1578" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -514,9 +514,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-31" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;二级意图识别&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;目标：主要识别出意图能力&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;方法：Bert&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;描述：识别用户提问是否是能力，如果是能力则优先调用执行，否则是知识库查询&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#d79b00;dashed=1;fillColor=#ffe6cc;opacity=50;spacingLeft=0;spacingRight=16;spacingBottom=0;spacing=0;" parent="DDZ-goIGRol3SpvbNQV1-15" vertex="1">
-          <mxGeometry x="50" y="460" width="220" height="120" as="geometry" />
+          <mxGeometry x="50" y="440" width="220" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="5A0RiKxxnKfqLSPrAgTw-29" value="二级意图识别" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="DDZ-goIGRol3SpvbNQV1-15" vertex="1">
+        <mxCell id="5A0RiKxxnKfqLSPrAgTw-29" value="二级意图识别" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="DDZ-goIGRol3SpvbNQV1-15" vertex="1">
           <mxGeometry x="300" y="460" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DDZ-goIGRol3SpvbNQV1-15" source="5A0RiKxxnKfqLSPrAgTw-46" target="5A0RiKxxnKfqLSPrAgTw-29" edge="1">
@@ -527,7 +527,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5A0RiKxxnKfqLSPrAgTw-51" value="是否能力" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="DDZ-goIGRol3SpvbNQV1-15" vertex="1">
+        <mxCell id="5A0RiKxxnKfqLSPrAgTw-51" value="是否能力" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="DDZ-goIGRol3SpvbNQV1-15" vertex="1">
           <mxGeometry x="305" y="590" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="DDZ-goIGRol3SpvbNQV1-15" source="5A0RiKxxnKfqLSPrAgTw-29" target="5A0RiKxxnKfqLSPrAgTw-51" edge="1">
@@ -579,8 +579,8 @@
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-11" value="结束：正常返回&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;并给出提示建议&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="DDZ-goIGRol3SpvbNQV1-5" vertex="1">
           <mxGeometry x="30" y="830" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5A0RiKxxnKfqLSPrAgTw-58" value="用户输入参数" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="DDZ-goIGRol3SpvbNQV1-5" vertex="1">
-          <mxGeometry x="40" y="680" width="120" height="60" as="geometry" />
+        <mxCell id="5KqKVanclHwAE7LwQr-1-6" value="用户输入参数" style="whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;" vertex="1" parent="DDZ-goIGRol3SpvbNQV1-5">
+          <mxGeometry x="40" y="700" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DDZ-goIGRol3SpvbNQV1-0" value="鲸通" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="5A0RiKxxnKfqLSPrAgTw-1" vertex="1">
           <mxGeometry x="290" y="40" width="360" height="930" as="geometry" />
@@ -666,8 +666,10 @@
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="5A0RiKxxnKfqLSPrAgTw-1" source="5A0RiKxxnKfqLSPrAgTw-41" target="5A0RiKxxnKfqLSPrAgTw-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A0RiKxxnKfqLSPrAgTw-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;shadow=1;" parent="5A0RiKxxnKfqLSPrAgTw-1" source="5A0RiKxxnKfqLSPrAgTw-34" target="5A0RiKxxnKfqLSPrAgTw-58" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5A0RiKxxnKfqLSPrAgTw-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;shadow=1;" parent="5A0RiKxxnKfqLSPrAgTw-1" source="5A0RiKxxnKfqLSPrAgTw-34" target="5KqKVanclHwAE7LwQr-1-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="720" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-38" value="正常返回&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;并给出提示建议&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="5A0RiKxxnKfqLSPrAgTw-1" vertex="1">
           <mxGeometry x="821" y="1064.5" width="120" height="80" as="geometry" />
@@ -723,8 +725,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5A0RiKxxnKfqLSPrAgTw-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="5A0RiKxxnKfqLSPrAgTw-1" source="5A0RiKxxnKfqLSPrAgTw-58" target="5A0RiKxxnKfqLSPrAgTw-33" edge="1">
+        <mxCell id="5A0RiKxxnKfqLSPrAgTw-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="5A0RiKxxnKfqLSPrAgTw-1" target="5A0RiKxxnKfqLSPrAgTw-33" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="780" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="190" y="830" />
               <mxPoint x="713" y="830" />
@@ -752,7 +755,7 @@
             <mxPoint x="390.7941176470588" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DDZ-goIGRol3SpvbNQV1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="5A0RiKxxnKfqLSPrAgTw-1" source="DDZ-goIGRol3SpvbNQV1-7" target="5A0RiKxxnKfqLSPrAgTw-10" edge="1">
+        <mxCell id="DDZ-goIGRol3SpvbNQV1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;flowAnimation=1;" parent="5A0RiKxxnKfqLSPrAgTw-1" source="DDZ-goIGRol3SpvbNQV1-7" target="5A0RiKxxnKfqLSPrAgTw-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="140" />
@@ -760,7 +763,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DDZ-goIGRol3SpvbNQV1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.021;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" parent="5A0RiKxxnKfqLSPrAgTw-1" source="DDZ-goIGRol3SpvbNQV1-13" target="DDZ-goIGRol3SpvbNQV1-37" edge="1">
+        <mxCell id="DDZ-goIGRol3SpvbNQV1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.021;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="5A0RiKxxnKfqLSPrAgTw-1" source="DDZ-goIGRol3SpvbNQV1-13" target="DDZ-goIGRol3SpvbNQV1-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DDZ-goIGRol3SpvbNQV1-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5A0RiKxxnKfqLSPrAgTw-1" source="5A0RiKxxnKfqLSPrAgTw-10" target="DDZ-goIGRol3SpvbNQV1-39" edge="1">
