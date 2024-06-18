@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T07:25:21.049Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3DsJT8xt5txgUJKiE3d4" version="24.5.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-18T07:28:01.518Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="su6vpqyz2o6AhB-eohOA" version="24.5.5" type="github" pages="5">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="v1.0">
     <mxGraphModel dx="1578" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -482,7 +482,7 @@
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-0" />
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-1" parent="5A0RiKxxnKfqLSPrAgTw-0" />
         <mxCell id="DDZ-goIGRol3SpvbNQV1-15" value="虎鲸" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="5A0RiKxxnKfqLSPrAgTw-1" vertex="1">
-          <mxGeometry x="650" y="40" width="760" height="930" as="geometry" />
+          <mxGeometry x="650" y="40" width="760" height="1090" as="geometry" />
         </mxCell>
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-8" value="&lt;div&gt;一级专业识别&lt;br&gt;&lt;/div&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="DDZ-goIGRol3SpvbNQV1-15" vertex="1">
           <mxGeometry x="70" y="40" width="159" height="80" as="geometry" />
@@ -562,7 +562,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DDZ-goIGRol3SpvbNQV1-5" value="用户" style="swimlane;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="5A0RiKxxnKfqLSPrAgTw-1" vertex="1">
-          <mxGeometry x="90" y="40" width="200" height="930" as="geometry" />
+          <mxGeometry x="90" y="40" width="200" height="1090" as="geometry" />
         </mxCell>
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-4" value="开始" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="DDZ-goIGRol3SpvbNQV1-5" vertex="1">
           <mxGeometry x="40" y="40" width="120" height="50" as="geometry" />
@@ -577,13 +577,13 @@
           <mxGeometry x="40" y="230" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-11" value="结束：正常返回&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;并给出提示建议&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="DDZ-goIGRol3SpvbNQV1-5" vertex="1">
-          <mxGeometry x="30" y="830" width="120" height="80" as="geometry" />
+          <mxGeometry x="30" y="850" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5KqKVanclHwAE7LwQr-1-6" value="用户输入参数" style="whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;" vertex="1" parent="DDZ-goIGRol3SpvbNQV1-5">
           <mxGeometry x="40" y="700" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DDZ-goIGRol3SpvbNQV1-0" value="鲸通" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="5A0RiKxxnKfqLSPrAgTw-1" vertex="1">
-          <mxGeometry x="290" y="40" width="360" height="930" as="geometry" />
+          <mxGeometry x="290" y="40" width="360" height="1090" as="geometry" />
         </mxCell>
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-17" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;安全拦截&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;目标：识别用户非意图部分是否安全&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;方法：&lt;/span&gt;&lt;code style=&quot;caret-color: rgb(0, 0, 0);&quot;&gt;wzhe06 DFA&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;描述：拦截用户非法提问，比如非法，敏感，骂人等敏感词&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#b85450;dashed=1;fillColor=#f8cecc;opacity=50;spacingLeft=0;spacingRight=16;spacingBottom=0;spacing=0;" parent="DDZ-goIGRol3SpvbNQV1-0" vertex="1">
           <mxGeometry x="150" y="330" width="190" height="150" as="geometry" />
@@ -642,7 +642,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1120" y="267" />
-              <mxPoint x="1120" y="910" />
+              <mxPoint x="1120" y="930" />
             </Array>
           </mxGeometry>
         </mxCell>
