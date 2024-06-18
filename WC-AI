@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T07:20:56.593Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="816cZBR9m4CJGfWxEkxg" version="24.5.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-18T07:23:06.709Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vZLf_cWQNqQUTkr2HG3t" version="24.5.5" type="github" pages="5">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="v1.0">
     <mxGraphModel dx="1578" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -688,7 +688,7 @@
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="5A0RiKxxnKfqLSPrAgTw-1" source="5A0RiKxxnKfqLSPrAgTw-48" target="5A0RiKxxnKfqLSPrAgTw-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A0RiKxxnKfqLSPrAgTw-48" value="提示热词" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="5A0RiKxxnKfqLSPrAgTw-1" vertex="1">
+        <mxCell id="5A0RiKxxnKfqLSPrAgTw-48" value="推荐能力" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="5A0RiKxxnKfqLSPrAgTw-1" vertex="1">
           <mxGeometry x="1181" y="320.5" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5A0RiKxxnKfqLSPrAgTw-49" value="用户选择热词" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="5A0RiKxxnKfqLSPrAgTw-1" vertex="1">
