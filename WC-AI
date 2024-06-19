@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T09:08:59.882Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4zasfKt_LpzXtrBKyeQ7" version="24.5.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-06-19T06:40:17.278Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LF4peH7g0CUXJPkJrPPv" version="24.5.5" type="github" pages="6">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="v1.0">
     <mxGraphModel dx="1578" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -973,6 +973,29 @@
         </mxCell>
         <mxCell id="_Ch8QTC64WqZj9DzyIzO-19" value="【Advice】&lt;div&gt;问题建议&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xeOM_Y5AdxEECoJD-0dc" name="前后端交互">
+    <mxGraphModel dx="1026" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2YmNXZJeme50x9LioM7H-1" value="web" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="270" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="MekHEKD09knBlFx2r-9T-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2YmNXZJeme50x9LioM7H-1" source="MekHEKD09knBlFx2r-9T-1" target="MekHEKD09knBlFx2r-9T-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MekHEKD09knBlFx2r-9T-1" value="开始" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="2YmNXZJeme50x9LioM7H-1">
+          <mxGeometry x="70" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MekHEKD09knBlFx2r-9T-2" value="用户输入" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;" vertex="1" parent="2YmNXZJeme50x9LioM7H-1">
+          <mxGeometry x="70" y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2YmNXZJeme50x9LioM7H-2" value="web" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="300" height="870" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
